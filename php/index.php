@@ -6,6 +6,7 @@
   <stylesheet css>
 </head>
   <body>
+    square | square-rounded | traingle | circle
   </body>
 </html>
  
