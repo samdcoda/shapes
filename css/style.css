@@ -2,3 +2,40 @@ div {
   border-style: solid;
   border-width: 1px;
 }
+div {
+  border-style: solid;
+  border-width: 1px;
+}
+
+body {
+    font-family: verdana;
+}
+
+#header, #footer {
+    background-color: #4682B4;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 120%;
+    text-align: center;
+    
+}
+#left {
+    background-color: #40E0D0;
+    width: 40%;
+    height: 500px;
+    float: left;
+
+}
+#right {
+    background-color: #40E0D0;
+    width: 60%;
+    height: 500px;
+    float: left;
+
+}
+img {
+    padding: 5px;
+    margin: 10px;
+    border: solid 1px #000080;
+    
+}
