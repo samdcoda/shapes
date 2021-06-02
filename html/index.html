@@ -10,10 +10,21 @@
   <div id="header">
     <h2>Header<h2>
   </div>
-  <div id="Left">
+  <div id="left">
     <h2>left<h2>
+        <p>This example uses the HTML DOM to assign an "onclick" event to a p element.</p>
+
+        <p id="demo">Click me.</p>
+
+        <script>
+        document.getElementById("demo").onclick = function() {myFunction()};
+
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "YOU CLICKED !";
+        }
+        </script>
   </div>
-  <div id="Rigth">
+  <div id="rigth">
    <h2>right<h2>
   
    <input type="button" value="square &#9633; &#x25A1;">
@@ -25,7 +36,7 @@
    <input type="button" onclick="alert('circle')" value="&#9675;">
     
    <input type="button" onclick="squarebt1()" value="&#9633;">
-   <input type="button" onclick="alert('triangle')" value="&#9651;">
+   <input type="button" onclick="document.write("text");" value="&#9651;">
    <input type="button" onclick="alert('circle')" value="&#9675;">
 
 <button type="button"
